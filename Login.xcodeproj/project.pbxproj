@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		01E234472A1A81C0001A7D02 /* LoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E234462A1A81C0001A7D02 /* LoginApp.swift */; };
-		01E234492A1A81C0001A7D02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E234482A1A81C0001A7D02 /* ContentView.swift */; };
+		01E234492A1A81C0001A7D02 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E234482A1A81C0001A7D02 /* LoginView.swift */; };
 		01E2344B2A1A81C1001A7D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E2344A2A1A81C1001A7D02 /* Assets.xcassets */; };
 		01E2344E2A1A81C1001A7D02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E2344D2A1A81C1001A7D02 /* Preview Assets.xcassets */; };
+		01E234552A1DE77F001A7D02 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E234542A1DE77F001A7D02 /* RegisterView.swift */; };
+		01E234572A1E16EC001A7D02 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E234562A1E16EC001A7D02 /* ForgotPasswordView.swift */; };
+		01E234592A1E68E9001A7D02 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E234582A1E68E9001A7D02 /* HomeView.swift */; };
+		01E2345B2A208477001A7D02 /* BalanceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2345A2A208477001A7D02 /* BalanceRow.swift */; };
+		01E2345D2A20AFC2001A7D02 /* RecentActivityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2345C2A20AFC2001A7D02 /* RecentActivityRow.swift */; };
+		01E2345F2A20EEE4001A7D02 /* ActivityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2345E2A20EEE4001A7D02 /* ActivityRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01E234432A1A81C0001A7D02 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E234462A1A81C0001A7D02 /* LoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApp.swift; sourceTree = "<group>"; };
-		01E234482A1A81C0001A7D02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01E234482A1A81C0001A7D02 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		01E2344A2A1A81C1001A7D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01E2344D2A1A81C1001A7D02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01E234542A1DE77F001A7D02 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		01E234562A1E16EC001A7D02 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		01E234582A1E68E9001A7D02 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		01E2345A2A208477001A7D02 /* BalanceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceRow.swift; sourceTree = "<group>"; };
+		01E2345C2A20AFC2001A7D02 /* RecentActivityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentActivityRow.swift; sourceTree = "<group>"; };
+		01E2345E2A20EEE4001A7D02 /* ActivityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				01E234462A1A81C0001A7D02 /* LoginApp.swift */,
-				01E234482A1A81C0001A7D02 /* ContentView.swift */,
+				01E234482A1A81C0001A7D02 /* LoginView.swift */,
+				01E234542A1DE77F001A7D02 /* RegisterView.swift */,
+				01E234562A1E16EC001A7D02 /* ForgotPasswordView.swift */,
+				01E234582A1E68E9001A7D02 /* HomeView.swift */,
+				01E2345A2A208477001A7D02 /* BalanceRow.swift */,
+				01E2345C2A20AFC2001A7D02 /* RecentActivityRow.swift */,
+				01E2345E2A20EEE4001A7D02 /* ActivityRow.swift */,
 				01E2344A2A1A81C1001A7D02 /* Assets.xcassets */,
 				01E2344C2A1A81C1001A7D02 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E234492A1A81C0001A7D02 /* ContentView.swift in Sources */,
+				01E234552A1DE77F001A7D02 /* RegisterView.swift in Sources */,
+				01E2345F2A20EEE4001A7D02 /* ActivityRow.swift in Sources */,
+				01E234492A1A81C0001A7D02 /* LoginView.swift in Sources */,
+				01E2345D2A20AFC2001A7D02 /* RecentActivityRow.swift in Sources */,
 				01E234472A1A81C0001A7D02 /* LoginApp.swift in Sources */,
+				01E234592A1E68E9001A7D02 /* HomeView.swift in Sources */,
+				01E234572A1E16EC001A7D02 /* ForgotPasswordView.swift in Sources */,
+				01E2345B2A208477001A7D02 /* BalanceRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
